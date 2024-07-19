@@ -1,0 +1,148 @@
+:root {
+    --heading-font: "Inria Serif", serif;
+    --default-font: "Inter Tight", sans-serif;
+    --primary-color: #f9f7fe;
+    --secondary-color: #272142;
+    
+}
+body {
+    
+    color: black;
+    font-family: var(--default-font);
+
+}
+h1, h2 {
+    font-family: var(--heading-font);
+  font-weight: bold;
+}
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 45px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.hero {
+    background: var(--primary-color);
+    padding: 160px 20px;
+    text-align: center;
+}
+ .hero p {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+}
+ .hero h2 {
+    font-size: 24px; 
+    font-family: var(--default-font); 
+    line-height: 1.5;
+}
+.latest {
+      font-size: 24px; 
+    font-family: var(--default-font); 
+    line-height: 1.5;
+    font-weight: bold;
+}
+.content {
+  padding: 20px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+  
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+.content p {
+  font-size: 14px;
+}
+.content {
+  margin: 30px;
+}
+.btn {
+    background: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-outline {
+    border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-desciption {
+  padding: 120px 60px;
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 18px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--secondary-color);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+   h4 {
+    font-size: 26px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+}
